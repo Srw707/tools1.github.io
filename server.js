@@ -20,5 +20,5 @@ app.post('/upload', (req, res) => {
 
 // بدء الخادم
 app.listen(3000, () => {
-    console.log("الخادم يعمل على http://localhost:3000");
+    console.log("الخادم يعمل على http://localhost:3000/uploads");
 });
