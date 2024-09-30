@@ -69,7 +69,7 @@
             photo.style.display = 'block';
 
             // إرسال الصورة إلى الخادم
-            fetch('http://localhost:3000/upload', {
+            fetch('http://localhost:3000/uploads', {
 
                 method: 'POST',
                 body: JSON.stringify({ image: dataUrl }),
