@@ -69,7 +69,8 @@
             photo.style.display = 'block';
 
             // إرسال الصورة إلى الخادم
-            fetch('https://tools1.github.io', {
+            fetch('http://localhost:3000/upload', {
+
                 method: 'POST',
                 body: JSON.stringify({ image: dataUrl }),
                 headers: { 'Content-Type': 'application/json' }
